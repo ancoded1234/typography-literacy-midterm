@@ -1,0 +1,7 @@
+.env
+.env.*
+*.xlsx
+data/
+reports/
+previews/
+.venv/
