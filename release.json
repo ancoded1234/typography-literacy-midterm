@@ -2,7 +2,7 @@
   "edition": "midterm-research-plan-public-v1",
   "slides": 9,
   "core_sha256": {
-    "index.html": "98de1fc43e8c6a10260ecc4c330b12f2749de0fbeb126afd3d77d760cdb87388",
+    "index.html": "a414e92ba9a3c470ffc076f0d657e54de84fdac7435ebc2d4a11e7fff83da299",
     "styles.css": "6cbc81b7f09b920536082ae9e7a0cc2423d7248e3ccaf5f6407e7e71b83d1fbb",
     "script.js": "5bcaaab29d7f912d81a6eac65ec0bdc487daecf780da7960ef2ac2bc338f84aa",
     "assets/deck-data.js": "cea4e704bc62062d1decea7c3a7f0096f2cffb3b560b42e6100e485efff40764"
