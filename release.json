@@ -1,10 +1,125 @@
 {
-  "edition": "midterm-research-plan-public-v1",
-  "slides": 9,
-  "core_sha256": {
-    "index.html": "a414e92ba9a3c470ffc076f0d657e54de84fdac7435ebc2d4a11e7fff83da299",
-    "styles.css": "6cbc81b7f09b920536082ae9e7a0cc2423d7248e3ccaf5f6407e7e71b83d1fbb",
-    "script.js": "5bcaaab29d7f912d81a6eac65ec0bdc487daecf780da7960ef2ac2bc338f84aa",
-    "assets/deck-data.js": "cea4e704bc62062d1decea7c3a7f0096f2cffb3b560b42e6100e485efff40764"
-  }
+  "edition": "midterm-final-11-slide-deck",
+  "date": "2026-10-25",
+  "slides": 11,
+  "titles": [
+    "찾는 것부터 다듬는 것까지",
+    "Figma에서 분위기에 어울리는 폰트를 찾기 어려웠다.",
+    "분위기만 설명해도 어울리는 폰트를 찾을 수 있다면?",
+    "비슷한 기능이 이미 있는지 8개 서비스를 살펴봤다.",
+    "분위기 탐색·AI 생성·벡터 편집은 기존 서비스에 있었다.",
+    "찾기부터 수정까지 한 흐름으로 이어질 수 있을까?",
+    "공식 태그는 분위기 검색의 출발점이 될 수 있다.",
+    "분위기에 맞는 폰트도 실제 작업 조건을 확인해야 한다.",
+    "원본 자료를 정리하고, 확인한 범위를 따로 기록했다.",
+    "A·B·C를 연결하고 사용자 경험으로 검증한다.",
+    "원하는 타이포를 찾고 다듬는 작업 환경을 연구한다."
+  ],
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 22709,
+      "sha256": "7daf94ab6c7dad0f031e89c9a97acb31d9165eccdcc4f4bd4c04418bb9349904"
+    },
+    {
+      "path": "visual.css",
+      "bytes": 37110,
+      "sha256": "834ead4c0e3471b4813fb5d5da9a7913c119b93135d080ccbe20f3a7c10a4c3c"
+    },
+    {
+      "path": "visual.js",
+      "bytes": 5231,
+      "sha256": "2595d22cac526bc0abf446beed173abef6e601f48119d875b47d57f2ae42bd64"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 247,
+      "sha256": "48ffb76bff0346afaf84cf9449f6c69713f505622847616fb9c295afc74cd9a5"
+    },
+    {
+      "path": "assets/fonts/pretendard.css",
+      "bytes": 2076308,
+      "sha256": "75447afbe15a3222f36c5aa12e5ae5e1c5b6fce8ae69f62b9d7d6284a53db590"
+    },
+    {
+      "path": "assets/fonts/specimens/StudyNotoKR.ttf",
+      "bytes": 30656,
+      "sha256": "ba4c4ac84a54d826ff37d7ce770a5c66594b849dcb3e05b5496e443f60d94f4c"
+    },
+    {
+      "path": "assets/fonts/specimens/StudyNotoKR-OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/specimens/StudyFlex.ttf",
+      "bytes": 263888,
+      "sha256": "8dfb2f8816662a737d7b2228ed4f42953f3c1e411f9965fa82016918788a73ce"
+    },
+    {
+      "path": "assets/fonts/specimens/StudyFlex-OFL.txt",
+      "bytes": 4488,
+      "sha256": "9cbaed04b20c853f99840efe5dc96956f6f6120ed83a0ade35f9281a2b63e5d0"
+    },
+    {
+      "path": "assets/fonts/specimens/StudyBatang.ttf",
+      "bytes": 27708,
+      "sha256": "64f3618e7e20b4056a47f9ca049944d34fcefa6359e9c67344bb3ce45feea0dc"
+    },
+    {
+      "path": "assets/fonts/specimens/StudyBatang-OFL.txt",
+      "bytes": 4397,
+      "sha256": "49a57cc769fa9affd6eefb9070a61e3d3f6b757c97cafb15848bc6d1c81acc78"
+    },
+    {
+      "path": "assets/vendor/anime-3.2.2.min.js",
+      "bytes": 17384,
+      "sha256": "b5ce1be3c3f530f192e0f2571d1942846096d66119cbada34bfdc912c4873f35"
+    },
+    {
+      "path": "assets/vendor/anime-LICENSE.md",
+      "bytes": 1075,
+      "sha256": "f825f5c75974fda9ae806de442770f3d7686cf86245e78fa0c3c39913184af95"
+    },
+    {
+      "path": "assets/flow/editorial-concept-imagegen.png",
+      "bytes": 2080071,
+      "sha256": "990d22c50d2da366f7d8769e10030c0c177b74f8ddd50c0a2c1017c02bba1f15"
+    },
+    {
+      "path": "assets/evidence/noonnu-monghwan-20261025.png",
+      "bytes": 101657,
+      "sha256": "b5b66dce2500e384373cf2694fcc6126fe65ca11d13a50202fca0741e15b09da"
+    },
+    {
+      "path": "assets/evidence/fontbrief-style-20261025.png",
+      "bytes": 221042,
+      "sha256": "64a0281bfdb91ff6fff80f45a9699375e8a0df133d27898e1afd6a7cb9baee08"
+    },
+    {
+      "path": "assets/evidence/sandoll-generated-20261025.png",
+      "bytes": 171491,
+      "sha256": "97b9186df67629a783a0b36907f223a2238805f8343d7e2c125f5ad23e3cfd94"
+    },
+    {
+      "path": "assets/evidence/recraft-before-after-20261025.png",
+      "bytes": 87959,
+      "sha256": "3347348b5b13b4dc9412d2662e86694969bfccd57e1150d2254bf6c51527360c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1335,
+      "sha256": "1ad768a2451fcf49da7310f47e4465947a545a8c84882196ea6a2279d639d064"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "excluded": [
+    "raw font repository",
+    "processed CSV and user research logs",
+    "credentials"
+  ]
 }
