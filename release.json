@@ -4,7 +4,7 @@
   "slides": 11,
   "titles": [
     "찾는 것부터 다듬는 것까지",
-    "Figma에서 분위기에 어울리는 폰트를 찾기 어려웠다.",
+    "원하는 분위기의 폰트를 찾는 과정이 쉽지 않았다.",
     "분위기만 설명해도 어울리는 폰트를 찾을 수 있다면?",
     "비슷한 기능이 이미 있는지 8개 서비스를 살펴봤다.",
     "분위기 탐색·AI 생성·벡터 편집은 기존 서비스에 있었다.",
@@ -18,13 +18,13 @@
   "files": [
     {
       "path": "index.html",
-      "bytes": 22709,
-      "sha256": "7daf94ab6c7dad0f031e89c9a97acb31d9165eccdcc4f4bd4c04418bb9349904"
+      "bytes": 23453,
+      "sha256": "2a9167c1bc6aab5669af43fb1b0ef03bff6362f4c369954fe27b4cbea48f6bfc"
     },
     {
       "path": "visual.css",
-      "bytes": 37110,
-      "sha256": "834ead4c0e3471b4813fb5d5da9a7913c119b93135d080ccbe20f3a7c10a4c3c"
+      "bytes": 40108,
+      "sha256": "8b690dc1db316f39c504531f4b08a511c0a211ffdaed9679e6251e7aa943b837"
     },
     {
       "path": "visual.js",
@@ -108,18 +108,29 @@
     },
     {
       "path": "README.md",
-      "bytes": 1335,
-      "sha256": "1ad768a2451fcf49da7310f47e4465947a545a8c84882196ea6a2279d639d064"
+      "bytes": 1356,
+      "sha256": "e42f966eed3093c5178b41973b078869cef45642ec9eb059d26138a1dd34843c"
     },
     {
       "path": ".nojekyll",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/evidence/figma-font-picker-user-20261025.png",
+      "bytes": 55018,
+      "sha256": "9e0a20dbce6eda63e7954b07e73fa6a5c9c93488310e5e4cb907f152d462e443"
+    },
+    {
+      "path": "assets/evidence/noonnu-monghwan-focus-20261025.png",
+      "bytes": 34247,
+      "sha256": "9749a0e6df63d8b127d38c9c7262eeed786e440386b40e8ced45f280d9343f2b"
     }
   ],
   "excluded": [
     "raw font repository",
     "processed CSV and user research logs",
     "credentials"
-  ]
+  ],
+  "updated": "2026-10-25-slide-02-revision"
 }
