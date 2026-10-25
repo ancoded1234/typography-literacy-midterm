@@ -13,12 +13,14 @@
   function finishMotion(){
     animations.forEach(a=>{a.pause();if(a.seek)a.seek(a.duration)});animations=[];
     document.querySelectorAll('[data-enter]').forEach(e=>{e.style.opacity='1';e.style.transform='none'});
-    document.querySelectorAll('[data-bar]').forEach(e=>e.style.transform='scaleX(1)');
+    document.querySelectorAll('[data-bar]').forEach(e=>{e.style.opacity='1';e.style.transform='none'});
   }
   function motion(){
     finishMotion();if(reduced.matches||!window.anime)return;
     const entering=slides[index].querySelectorAll('[data-enter]');
-    if(entering.length)animations.push(anime({targets:entering,opacity:[0,1],translateY:[12,0],duration:550,delay:anime.stagger(80),easing:'easeOutCubic'}));
+    if(entering.length)animations.push(anime({targets:entering,translateY:[8,0],duration:480,delay:anime.stagger(65),easing:'easeOutCubic'}));
+    const bars=slides[index].querySelectorAll('[data-bar]');
+    if(bars.length)animations.push(anime({targets:bars,opacity:[0.55,1],duration:620,delay:anime.stagger(100),easing:'easeOutCubic'}));
   }
   function show(i,update=true){
     finishMotion();index=Math.max(0,Math.min(i,slides.length-1));
@@ -31,7 +33,7 @@
     if(update)history.replaceState(null,'','#'+slides[index].id);
     scrollTo({top:0,left:0,behavior:'instant'});motion();
   }
-  slides.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`${String(i+1).padStart(2,'0')}번 슬라이드로 이동`);b.onclick=()=>show(i);document.querySelector('#dots').append(b)});
+  slides.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`${String(i+1).padStart(2,'0')}\ubc88 \uc2ac\ub77c\uc774\ub4dc\ub85c \uc774\ub3d9`);b.onclick=()=>show(i);document.querySelector('#dots').append(b)});
   function fromHash(){const n=slides.findIndex(s=>s.id===location.hash.slice(1));show(n<0?0:n,false)}
   document.querySelector('#prev').onclick=()=>show(index-1);document.querySelector('#next').onclick=()=>show(index+1);document.querySelector('#replay').onclick=motion;
   document.querySelectorAll('[data-panel]').forEach(b=>b.onclick=()=>{const group=[...b.parentElement.querySelectorAll('[role=tab]')];group.forEach(x=>{const on=x===b;x.setAttribute('aria-selected',String(on));document.getElementById(x.dataset.panel).hidden=!on})});
@@ -45,3 +47,5 @@
   addEventListener('resize',resize);addEventListener('hashchange',fromHash);reduced.addEventListener('change',finishMotion);
   window.DECK_QA={show,finishMotion,slideIds:slides.map(s=>s.id)};fromHash();resize();
 })();
+
+
